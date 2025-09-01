@@ -12,6 +12,8 @@ body {
   background-size: cover;
 }
 
+/*Header*/
+
 header {
   padding: 10px;
   margin: 10px 10px 10px 10px;
@@ -39,4 +41,38 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2px;
+}
+
+/*Main block*/
+
+main {
+  height: 100%;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  background-color: rgba(250, 215, 181, 0.8);
+}
+
+.row {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.col-left {
+  width: 350px;
+  color: purple;
+  text-align: end;
+  margin-right: 50px;
+}
+
+.col-right {
+  flex: 1;
+}
+
+.subtitle {
+  margin-bottom: 6px;
+}
+
+ul {
+  margin-left: 30px;
+  margin-bottom: 6px;
 }
