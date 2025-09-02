@@ -54,7 +54,8 @@ header {
 main {
   height: 100%;
   padding: 10px;
-  margin: 10px 10px 10px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: rgba(11, 30, 42, 0.8);
 }
 
@@ -101,4 +102,16 @@ main {
 
 .text {
   color: #ffffff;
+}
+
+/*Footer*/
+
+footer {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  opacity: 0.6;
 }
