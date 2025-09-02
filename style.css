@@ -8,7 +8,7 @@ body {
   font-family:
     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial, sans-serif;
-  background: url('img/gif.gif') no-repeat center center fixed;
+  background: url('img/bg.gif') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -17,13 +17,14 @@ body {
 header {
   padding: 10px;
   margin: 10px 10px 10px 10px;
-  background-color: rgba(250, 215, 181, 0.8);
+  background-color: rgba(11, 30, 42, 0.8);
   display: flex;
   justify-content: space-evenly;
 }
 
 .name {
   font-size: 28px;
+  color: #3498db;
 }
 
 .link {
@@ -32,8 +33,12 @@ header {
   color: #1a73e8;
 }
 
+.link:hover {
+  text-decoration: underline;
+}
+
 .icon {
-  color: black;
+  color: #c060e6;
 }
 
 .second-block,
@@ -41,6 +46,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2px;
+  color: #ffffff;
 }
 
 /*Main block*/
@@ -49,17 +55,17 @@ main {
   height: 100%;
   padding: 10px;
   margin: 10px 10px 10px 10px;
-  background-color: rgba(250, 215, 181, 0.8);
+  background-color: rgba(11, 30, 42, 0.8);
 }
 
 .row {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 }
 
 .col-left {
   width: 350px;
-  color: purple;
+  color: #c060e6;
   text-align: end;
   margin-right: 50px;
 }
@@ -72,7 +78,27 @@ main {
   margin-bottom: 6px;
 }
 
-ul {
+.list-skills {
   margin-left: 30px;
   margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.list-response {
+  margin-left: 30px;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.list-lang {
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.title {
+  color: #3498db;
+}
+
+.text {
+  color: #ffffff;
 }
